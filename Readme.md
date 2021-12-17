@@ -20,9 +20,9 @@ it's simple , we take the weight and the height then we applie the function bell
 
  - [ ] show the result of a bmi in clear font 
 
- - [ ] add graph for normal and == abnormal == 
+ - [ ] add graph for normal and ==abnormal== 
  - [ ] add clear input boxes
- 
+
 
 
 
