@@ -1,4 +1,6 @@
 # BMI
+![the bmi graph](assets/1024px-BMI_grid_fr.svg.png)
+
 What is it ?
 ===
 The BMI app is the an application that means to calculate the BMI (body mass index)
