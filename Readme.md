@@ -1,4 +1,4 @@
-# BMI
+# BMI Application
 ![the bmi graph](assets/1024px-BMI_grid_fr.svg.png)
 
 What is it ?
