@@ -21,17 +21,11 @@
     <div>
         <p>male <input type="radio"> female <input type="radio"></p>
     </div>
-    <button onclick="clcBmi" >Calculate the BMI</button>
-    <div > {bmi} </div>
+    <button onclick="clcBmi()" >Calculate the BMI</button>
+    <div > </div>
 </body>
-<script>
-    var h_t = document.getElementsById("height").value ;
-    var w_t = document.getElementsById("weight").value ;
-    var bmiValue = (w_t/h_t**2 );
-    function clcBmi() {
-        
-        alert(bmiValue) ;
-    }
+<script src="js/main.js">
+
 
 </script>
 </html>
