@@ -18,7 +18,7 @@ it's simple , we take the weight and the height then we applie the function bell
 
  ## the aim of this app
 
- - [X] show the result of a bmi in clear font 
+ - [X] ~~show the result of a bmi in clear font~~
  - [ ] add graph for normal and abnormal values
  - [ ] add clear input boxes
  - [ ] focusing on aesthetics 
