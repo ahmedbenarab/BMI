@@ -5,27 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesure du BMI form Quawim</title>
+    <title>Quawim BMI calculator</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+
 </head>
 
 <body>
-    <h1>The BMI application </h1>
-    <h3>name <input id="name" type="text"></h3>
+    <form action="">
+        <h1>The BMI application </h1>
+        <label for="name">name</label> <input id="name" type="text">
 
-    <h3>surname <input id="surname" type="text"></h3>
+        <label for="surname">surname</label> <input id="surname" type="text">
 
-    <h3>height <input id="height" type="number"></h3>
+        <label for="height">height</label> <input id="height" type="number">
 
-    <h3>weight <input id="weight" type="number"></h3>
+        <label for="weight">weight</label> <input id="weight" type="number"></h3>
 
-    <div>
-        <p>male <input type="radio"> female <input type="radio"></p>
+        <div>
+            <input type="radio" name="sex" id="male"> <label for="male">male</label>
+            <input type="radio" name="sex" id="female"> <label for="female">female</label>
+        </div>
+    </form>
+    <div class="box">
+        <a class="button" href="#popup1" onclick="clcBmi()"><button >Calculate the BMI</button></a>
     </div>
-    <button onclick="clcBmi()" >Calculate the BMI</button>
-    <div id="result"> </div>
+
+
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Here i am</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content" id="content">
+                Thank to pop me out of that button, but now i'm done so you can close this window.
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
-<script src="js/main.js">
 
-
-</script>
 </html>
+
+
+
+made with ❤️ by Ahmed Benarab
